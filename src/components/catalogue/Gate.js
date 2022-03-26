@@ -12,7 +12,9 @@ const Gate = () => {
 
   return (
     <>
+    <div className="p-10 flex w-96">
       <Display items={gate}/>
+    </div>
     </>
   )
 }

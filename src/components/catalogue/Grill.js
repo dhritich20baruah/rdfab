@@ -4,17 +4,17 @@ import Display from './Display'
 
 const Grill = () => {
   const [grill, setGrill]= useState(items)
-  console.log(items.category)
 
-  useEffect(() => {
-   
+  useEffect(() => {   
     setGrill(items.filter(item=>item.category === "grills"))
   }, [])
-  
+  console.log(grill)
   return (
     <>
-    <div className='flex-row p-10'>
-      <Display items={grill}/>
+    <div className='flex-column w-80'>
+    
+    <Display items={grill}/>
+      
     </div>
     </>
   )
