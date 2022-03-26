@@ -1,8 +1,11 @@
 import React from 'react'
+import Trussimg from './img/Truss designs.jpg'
 
 const Truss = () => {
   return (
-    <div>Truss</div>
+    <div>
+      <img src={Trussimg} alt="" />
+    </div>
   )
 }
 

@@ -6,10 +6,12 @@ const Display = (props) => {
     <div className='flex-row'>
     {items.map((item)=>{
       return(
-        <div>
-        <img src={item.img} alt="" className="w-40 object-cover"/>
-        <h2 className='text-xl'>{item.title}</h2>
+        <div className='w-fit'>
+        <img src={item.img} alt="" className="w-80 object-cover"/>
+        <h2 className='text-xl text-center'>{item.title}</h2>
+        <h2 className='text-xl text-center'>{item.category}</h2>
         </div>
+        
       )
     })}
   </div>
