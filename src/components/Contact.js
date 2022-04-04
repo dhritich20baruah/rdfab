@@ -1,5 +1,5 @@
 import React from 'react'
-import location from './location.JPG'
+import location from './images/location.JPG'
 
 const Contact = () => {
   return (

@@ -1,9 +1,5 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
-// import Gate from './Gate'
-// import Grill from './Grill'
-// import Truss from './Truss'
-// import { Routes, Route } from 'react-router-dom'
  
 const Catalogue = () => {
   return (

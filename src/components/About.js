@@ -1,7 +1,7 @@
 import React from 'react'
-import rana from './rana.jpg'
-import dhriti from './dhriti.jpg'
-import ram from './ram.jpg'
+import rana from './images/rana.jpg'
+import dhriti from './images/dhriti.jpg'
+import ram from './images/ram.jpg'
 
 const About = () => {
   return (

@@ -1,11 +1,11 @@
-import grill1 from './grill1.jpg';
-import Decorative from './house.jpg'
-import gate from './gate.jpg'
-import pipegate from './pipe-gate.jpg'
-import shutters from './shutters.jpg'
-import shutters1 from './shutters2.jpg'
-import truss from './truss.jpg'
-import weld2 from './Weld2.jpg'
+import grill1 from './images/grill1.jpg';
+import Decorative from './images/house.jpg'
+import gate from './images/gate.jpg'
+import pipegate from './images/pipe-gate.jpg'
+import shutters from './images/shutters.jpg'
+import shutters1 from './images/shutters2.jpg'
+import truss from './images/truss.jpg'
+import weld2 from './images/Weld2.jpg'
 
 const items = [
     {
