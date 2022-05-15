@@ -1,5 +1,5 @@
 import React from 'react'
-import rana from './images/rana.jpg'
+import rana from './images/Ranafb.jpg'
 import dhriti from './images/dhriti.jpg'
 import ram from './images/ram.jpg'
 import pic1 from './images/pic1.jpg'
@@ -20,7 +20,7 @@ const About = () => {
         <div className="rana bg-black">
             <img src={rana} alt="" className='h-60 w-60 object-cover'/>
             <h2 className='text-xl text-white p-2'>Ranacharya Borah</h2>
-            <h2 className='text-red-600 p-2 text-lg italic'>Founder</h2>
+            <h2 className='text-red-600 p-2 text-lg italic'>Chief Manager, Founder</h2>
         </div>
         <div className="dhriti bg-black">
             <img src={dhriti} alt="" className='h-60 w-60 object-cover'/>
@@ -35,27 +35,27 @@ const About = () => {
       </div>
 
       {/* testimonials */}
-      <h1 className='text-white text-2xl text-center mx-8 my-6'><u>HAPPY CUSTOMERS</u></h1>
+      <h1 className='text-white text-2xl text-center mx-8 my-10'><u>HAPPY CUSTOMERS</u></h1>
       <div className="testimonials flex space-x-2">
         <div className="remarks">
-          <h2 className='bg-slate-700 text-white italic'>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in et, iste pariatur incidunt dignissimos qui dolorum quod rerum nesciunt."</h2>
-          <h2>Brindyaban Gohain</h2>
+          <h2 className='bg-slate-400 p-3 text-white italic'>"I ordered a variety of custom jobs including equipment for our farm. They delivered each order according to specifications."</h2>
+          <h2 className='text-white'>-Brindyaban Gohain</h2>
         </div>
         <div className="remarks">
-          <h2 className='bg-slate-700 text-white italic'>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in et, iste pariatur incidunt dignissimos qui dolorum quod rerum nesciunt."</h2>
-          <h2>Indian Railways</h2>
+          <h2 className='bg-slate-400 p-3 text-white italic'>"The job was satisfactory and was completed within the stipulated time period."</h2>
+          <h2 className='text-white'>-HYT Engineering</h2>
         </div>
         <div className="remarks">
-          <h2 className='bg-slate-700 text-white italic'>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in et, iste pariatur incidunt dignissimos qui dolorum quod rerum nesciunt."</h2>
-          <h2>Dhruborshi Pd. Sen</h2>
+          <h2 className='bg-slate-400 p-3 text-white italic'>"I had to renovate my house. So I approached R D Fabrications. Not only did they deliver on time but also saved me a lot money."</h2>
+          <h2 className='text-white'>-Adv. Dhruborshi Pd. Sen</h2>
         </div>
         <div className="remarks">
-          <h2 className='bg-slate-700 text-white italic'>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in et, iste pariatur incidunt dignissimos qui dolorum quod rerum nesciunt."</h2>
-          <h2>Pratul Baishya</h2>
+          <h2 className='bg-slate-400 p-3 text-white italic'>"They fabricated my front and back security grills and also helped with the installation. I am extremely happy with the experience."</h2>
+          <h2 className='text-white'>-Pratul Baishya</h2>
         </div>
         <div className="remarks">
-          <h2 className='bg-slate-700 text-white italic'>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in et, iste pariatur incidunt dignissimos qui dolorum quod rerum nesciunt."</h2>
-          <h2>Dr. Ranjan Baruah</h2>
+          <h2 className='bg-slate-400 p-3 text-white italic'>"I am extremely happy and satisfied with the service."</h2>
+          <h2 className='text-white'>Dr. Ranjan Baruah</h2>
         </div>
       </div>
 
