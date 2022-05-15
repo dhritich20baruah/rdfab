@@ -2,6 +2,12 @@ import React from 'react'
 import rana from './images/rana.jpg'
 import dhriti from './images/dhriti.jpg'
 import ram from './images/ram.jpg'
+import pic1 from './images/pic1.jpg'
+import pic2 from './images/pic2.jpg'
+import pic3 from './images/pic3.jpg'
+import pic4 from './images/pic4.jpg'
+import pic5 from './images/pic5.jpg'
+
 
 const About = () => {
   return (
@@ -14,12 +20,12 @@ const About = () => {
         <div className="rana bg-black">
             <img src={rana} alt="" className='h-60 w-60 object-cover'/>
             <h2 className='text-xl text-white p-2'>Ranacharya Borah</h2>
-            <h2 className='text-red-600 p-2 text-lg italic'>Partner</h2>
+            <h2 className='text-red-600 p-2 text-lg italic'>Founder</h2>
         </div>
         <div className="dhriti bg-black">
             <img src={dhriti} alt="" className='h-60 w-60 object-cover'/>
             <h2 className='text-xl text-white p-2'>Dhritiman Ch. Baruah</h2>
-            <h2 className='text-red-600 text-lg italic p-2'>Partner</h2>
+            <h2 className='text-red-600 text-lg italic p-2'>Project Manager, Co-Founder</h2>
         </div>
         <div className="ram bg-black">
             <img src={ram} alt="" className='h-60 object-cover w-60'/>
@@ -50,6 +56,25 @@ const About = () => {
         <div className="remarks">
           <h2 className='bg-slate-700 text-white italic'>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit in et, iste pariatur incidunt dignissimos qui dolorum quod rerum nesciunt."</h2>
           <h2>Dr. Ranjan Baruah</h2>
+        </div>
+      </div>
+
+      {/* Gallery */}
+      <div className="snap-x flex">
+        <div className="snap-center m-3">
+          <img src={pic1} alt="" className='w-96 h-96'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic2} alt="" className='w-96 h-96'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic3} alt="" className='w-96 h-96'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic4} alt="" className='w-96 h-96'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic5} alt="" className='w-96 h-96'/>
         </div>
       </div>
     </div>
