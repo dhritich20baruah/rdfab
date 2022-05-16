@@ -11,7 +11,7 @@ const Grill = () => {
   console.log(grill)
   return (
     <>
-    <div className='flex-column w-80'>
+    <div className=''>
     
     <Display items={grill}/>
       

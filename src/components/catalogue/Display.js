@@ -1,20 +1,18 @@
 import React from 'react'
 
 const Display = (props) => {
-    const { items } = props
+  const { items } = props
   return (
-    <div className='flex-row'>
-    {items.map((item)=>{
-      return(
-        <div className='w-96 mx-auto my-10'>
-        <img src={item.img} alt="" className="w-fit object-cover mx-auto"/>
-        <h2 className='text-xl text-center mx-auto'>{item.title}</h2>
-      
-        </div>
-        
-      )
-    })}
-  </div>
+    <div className='grid md:grid-cols-3 gap-4'>
+      {items.map((item) => {
+        return (
+          <div className='mx-auto my-10'>
+            <img src={item.img} alt="" className="w-80 h-[80%] object-contain mx-auto" />
+            <h2 className='text-xl text-center mx-auto'>{item.title}</h2>
+          </div>
+        )
+      })}
+    </div>
   )
 }
 
