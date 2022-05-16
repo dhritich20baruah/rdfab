@@ -7,7 +7,9 @@ import pic2 from './images/pic2.jpg'
 import pic3 from './images/pic3.jpg'
 import pic4 from './images/pic4.jpg'
 import pic5 from './images/pic5.jpg'
-
+import pic6 from './images/weld4.jpg'
+import pic7 from './images/weld5.jpg'
+import pic8 from './images/weld7.jpg'
 
 const About = () => {
   return (
@@ -60,21 +62,30 @@ const About = () => {
       </div>
 
       {/* Gallery */}
-      <div className="snap-x flex">
+      <div className="grid md:grid-cols-4 gap-4">
         <div className="snap-center m-3">
-          <img src={pic1} alt="" className='w-96 h-96'/>
+          <img src={pic1} alt="" className='w-96 h-96 object-cover'/>
         </div>
         <div className="snap-center m-3">
-          <img src={pic2} alt="" className='w-96 h-96'/>
+          <img src={pic2} alt="" className='w-96 h-96 object-cover'/>
         </div>
         <div className="snap-center m-3">
-          <img src={pic3} alt="" className='w-96 h-96'/>
+          <img src={pic3} alt="" className='w-96 h-96 object-cover'/>
         </div>
         <div className="snap-center m-3">
-          <img src={pic4} alt="" className='w-96 h-96'/>
+          <img src={pic4} alt="" className='w-96 h-96 object-cover'/>
         </div>
         <div className="snap-center m-3">
-          <img src={pic5} alt="" className='w-96 h-96'/>
+          <img src={pic5} alt="" className='w-96 h-96 object-cover'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic6} alt="" className='w-96 h-96 object-cover'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic7} alt="" className='w-96 h-96 object-cover'/>
+        </div>
+        <div className="snap-center m-3">
+          <img src={pic8} alt="" className='w-96 h-96 object-cover'/>
         </div>
       </div>
     </div>
