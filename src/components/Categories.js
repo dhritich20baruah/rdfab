@@ -5,8 +5,8 @@ const Categories = (props) => {
 
   return (
     <>
-     <h1 className='text-white text-2xl text-center mx-8'>CATEGORIES</h1>
-    <div className='btn-container text-center mt-5 space-x-5 text-xl text-yellow-300'>
+     <h1 className='text-black text-2xl text-center mx-8'>CATEGORIES</h1>
+    <div className='btn-container text-center mt-5 space-x-5 text-xl text-black'>
       <button className="filter-btn hover:text-red-400" onClick={()=>filterItems('all')}> 
       All
       </button>

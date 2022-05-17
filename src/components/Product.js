@@ -6,7 +6,7 @@ const Product = (props) => {
     <div>
         {items.map((item)=>{
             return(
-                <article className="productitem w-[80] h-[150] bg-white flex p-5">
+                <article className="productitem w-[80] h-[150] bg-white md:flex p-5">
                     <img src={item.img} alt={item.title} className="w-64 h-60 object-cover"/>
                     <div className="productinfo p-5">
                         <header>

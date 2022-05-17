@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='bg-gradient-to-br from-blue-900 to-slate-700 h-[100vh]'>
       <h1 className="text-3xl text-center py-4 text-yellow-300">Contact Us</h1>
-      <div className="flex justify-evenly">
+      <div className="md:flex justify-evenly">
         <div className="contact-info space-y-3 text-white">
             <h2 className='text-2xl underline'>Address:</h2>
             <p className='text-xl'>East Chowkidinghee</p>
