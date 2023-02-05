@@ -12,7 +12,7 @@ const items = [
         id: 1,
         title: "Simple grill",
         category: "Grill",
-        price: "Rs.90/Kg inclusive of material",
+        price: "Rs.110/Kg inclusive of material",
         img: grill1,
         desc: "Simple grills made from M.S. flats, angles and square bars for windows and doors."
     },
@@ -20,7 +20,7 @@ const items = [
         id: 2,
         title: "Decorative grill",
         category: "Grill",
-        price: "Rs.95/Kg inclusive of material",
+        price: "Rs.115/Kg inclusive of material",
         img: Decorative,
         desc: "Decorative grills for windows and doors"
     },
@@ -28,7 +28,7 @@ const items = [
         id: 3,
         title: "Gates",
         category: "Gates",
-        price: "Rs.100/Kg inclusive of material",
+        price: "Rs.110/Kg inclusive of material",
         img: gate,
         desc: "Simple gates"
     },
@@ -36,7 +36,7 @@ const items = [
         id: 4,
         title: "M.S tube gates",
         category: "Gates",
-        price: "Rs.110/Kg inclusive of material",
+        price: "Rs.120/Kg inclusive of material",
         img: pipegate,
         desc: "Simple gates"
     },
@@ -44,7 +44,7 @@ const items = [
         id: 5,
         title: "Rolling shutters",
         category: "Shutters",
-        price: "Rs.210/Sq.feet excluding material",
+        price: "Rs.220/Sq.feet excluding material",
         img: shutters,
         desc: "Steel shutters including installation"
     },
@@ -52,7 +52,7 @@ const items = [
         id: 6,
         title: "Perforated shutters",
         category: "Shutters",
-        price: "Rs.230/Sq.feet excluding material",
+        price: "Rs.250/Sq.feet excluding material",
         img: shutters1,
         desc: "Perforated shutters made of either perforated profiles or rods along with installation"
     },
